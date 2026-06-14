@@ -8,17 +8,22 @@ A Python script that pulls live stock prices for a watchlist of companies using 
 
 **Companies tracked:** Ubiquiti, Nauticus Robotics, IBM, Lithium Americas, Palantir, Meta, Microsoft, Joby Aviation, Rigetti Computing, AeroVironment, Redwire
 
-**Tech used:**
-- `yfinance` — live market data
-- `pandas` — data processing
-- `matplotlib` — visualization
+**Tech used:** `yfinance`, `pandas`, `matplotlib`
 
-**Skills demonstrated:**
-- API integration
-- Data analysis
-- Financial metrics calculation (% change)
-- Data visualization
+**Skills demonstrated:** API integration, data analysis, financial metrics, data visualization
 
 ---
 
-*More projects coming soon — bond yield calculator, portfolio tracker, stock screener.*
+## 💰 Project 2: Bond Yield Calculator (YTM & Duration)
+
+A Python tool that calculates **Yield to Maturity (YTM)** and **Macaulay Duration** for a coupon-paying bond, given its face value, coupon rate, market price, and time to maturity. Uses numerical root-finding to solve for YTM based on actual bond pricing theory.
+
+**Example output:** For a ₹1,00,000 bond with a 9.20% coupon trading at ₹98,500 with 5 years to maturity, the tool calculates a YTM of 9.58% and a Macaulay Duration of 4.11 years — correctly reflecting that bonds trading at a discount have YTM higher than their coupon rate.
+
+**Tech used:** `numpy`, `scipy`
+
+**Skills demonstrated:** Fixed income analytics, numerical methods, financial modeling — built on real concepts applied during a debt capital markets internship.
+
+---
+
+*More projects coming soon — portfolio tracker, stock screener.*
